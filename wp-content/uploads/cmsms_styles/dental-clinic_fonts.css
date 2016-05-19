@@ -1,0 +1,811 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Dental Clinic
+ * @version 	1.0.0
+ * 
+ * Theme Fonts Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/***************** Start Theme Font Styles ******************/
+
+	/* Start Content Font */
+	body, 
+	blockquote footer, 
+	.cmsms_breadcrumbs .cmsms_breadcrumbs_inner, 
+	.cmsms_breadcrumbs .cmsms_breadcrumbs_inner a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	q, 
+	.cmsms_post_comments:before, 
+	.cmsmsLike:before {
+		font-size:13px;
+	}
+	
+	.tweet_list .tweet_text,
+	.tweet_list .tweet_text a,
+	.cmsms_post_cont_info, 
+	.cmsms_posts_slider .post .cmsms_slider_post_content, 
+	.cmsms_posts_slider .post .cmsms_slider_post_quote_author, 
+	.widget_nav_menu ul ul li a, 
+	.widget_nav_menu ul ul ul li a, 
+	.widget_nav_menu ul ul ul ul li a, 
+	.widget_nav_menu ul ul ul ul ul li a, 
+	#wp-calendar th, 
+	#wp-calendar td { 
+		font-size:12px;
+	}
+	
+	.tweet_list .tweet_text,
+	.tweet_list .tweet_text a {
+		line-height:18px;
+	}
+	
+	.widget_nav_menu ul ul ul li a, 
+	.widget_nav_menu ul ul ul ul li a, 
+	.widget_nav_menu ul ul ul ul ul li a { 
+		font-size:11px;
+	}
+	
+	.gallery .gallery-item .gallery-caption,
+	.cmsms_gallery li.cmsms_caption figcaption,
+	.wp-caption .wp-caption-text {
+		font-size:14px;
+	}
+	
+	q, 
+	.cmsmsLike:before,
+	.cmsms_post_comments:before, 
+	.contact_widget_name.cmsms_theme_icon_person:before, 
+	.contact_widget_email.cmsms_theme_icon_user_mail:before, 
+	.contact_widget_phone.cmsms_theme_icon_user_phone:before, 
+	.adress_wrap.cmsms_theme_icon_user_address:before {
+		line-height:20px !important;
+	}
+	
+	.details_item_desc_like,
+	.details_item_desc_comments, 
+	.post .cmsms_post_meta_info {
+		height:20px;
+	}
+	/* Finish Content Font */
+
+
+	/* Start Link Font */
+	a, 
+	.cmsms_tabs.lpr .cmsms_tabs_list .cmsms_tabs_list_item > a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_post_cont_info, 
+	.cmsms_post_cont_info a, 
+	.cmsms_project_cont_info, 
+	.cmsms_project_cont_info a, 
+	.pj_ddn .cmsms_project_category, 
+	.pj_ddn .cmsms_project_category a, 
+	.cmsms_tabs.lpr .cmsms_tabs_list .cmsms_tabs_list_item > a {
+		font-size:12px;
+	}
+	
+	a:hover {
+		text-decoration:none;
+	}
+	/* Finish Link Font */
+
+
+	/* Start Navigation Title Font */
+	#navigation > li > a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	#navigation > li > a > span:before {
+		font-size:17px;
+	}
+	
+	#navigation li > a .cmsms-resp-nav-toggle:before {
+		font-size:14px;
+	}
+	
+	#navigation > li.menu-item-icon > a > span > span.nav_subtitle,
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li.menu-item-icon > a > span > span.nav_subtitle {
+		padding-left:24px;
+	}
+	
+	body.rtl #navigation > li.menu-item-icon > a > span > span.nav_subtitle,
+	body.rtl #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li.menu-item-icon > a > span > span.nav_subtitle {
+		padding-right:24px;
+		padding-left:0; /* static */
+	}
+	
+	#navigation > li > a[data-tag]:before,
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a[data-tag]:before {
+		margin-top:1px;
+	}
+	
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a,
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li:hover > a {
+		font-weight:700; /* static */
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		html #page #header nav #navigation li a {
+			font-size:13px;
+			font-weight:400; /* static */
+		}
+		
+		html #page #header nav #navigation li li li a {
+			font-size:11px;
+		}
+		
+		html #page #header nav #navigation > li.menu-item-hide-text > a > span,
+		html #page #header nav #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li.menu-item-hide-text > a > span {
+			font-size:14px;
+			line-height:20px;
+		}
+		
+		html #page #header nav #navigation > li.menu-item-icon > a > span > span.nav_subtitle,
+		html #page #header nav #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li.menu-item-icon > a > span > span.nav_subtitle {
+			padding-left:24px;
+		}
+	}
+	/* Finish Navigation Title Font */
+
+
+	/* Start Navigation Dropdown Font */
+	#navigation ul li a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:12px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a {
+		font-weight:700; /* static */
+	}
+	
+	#navigation > li > a > span > span.nav_subtitle,
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a > span > span.nav_subtitle, 
+	#navigation li > a[data-tag]:before {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:11px;
+		line-height:19px;
+		font-style:normal;
+		text-transform:none;
+		font-weight:400; /* static */
+	}
+	
+	#navigation > li > a > span > span.nav_subtitle {
+		font-size:12px;
+		line-height:18px;
+		font-weight:400; /* static */
+	}
+	
+	#navigation ul li a span:before {
+		font-size:15px;
+	}
+	
+	#navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a > span:before {
+		font-size:16px;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		html #page #header nav #navigation > li.menu-item-hide-text > a > span > span.nav_subtitle,
+		html #page #header nav #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li.menu-item-hide-text > a > span > span.nav_subtitle {
+			font-size:10px;
+			line-height:18px;
+		}
+	}
+	/* Finish Navigation Dropdown Font */
+
+
+	/* Start H1 Font */
+	h1,
+	h1 a,
+	#header .logo .title,
+	.cmsms_pricing_table .cmsms_currency,
+	.cmsms_pricing_table .cmsms_price,
+	.cmsms_pricing_table .cmsms_coins,
+	.post.format-aside .cmsms_post_cont .cmsms_post_content,
+	.post.format-status .cmsms_post_cont .cmsms_post_content, 
+	.cmsms_search_post .cmsms_search_post_title, 
+	.cmsms_search_post .cmsms_search_post_title a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:28px;
+		line-height:36px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_dropcap {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_icon_list_items.cmsms_icon_list_icon_type_number .cmsms_icon_list_item .cmsms_icon_list_icon:before,
+	.cmsms_icon_box.box_icon_type_number:before,
+	.cmsms_icon_box.cmsms_icon_heading_left.box_icon_type_number .icon_box_heading:before {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.cmsms_dropcap.type1 {
+		font-size:36px; /* static */
+	}
+	
+	.cmsms_dropcap.type2 {
+		font-size:20px; /* static */
+	}
+	
+	.headline_outer .headline_inner .headline_icon:before {
+		font-size:32px;
+		line-height:46px;
+	}
+	
+	.headline_outer .headline_inner.align_center .headline_icon:before {
+		font-size:50px;
+		line-height:56px;
+	}
+	
+	.headline_outer .headline_inner.align_left .headline_icon {
+		padding-left:46px;
+	}
+	
+	.headline_outer .headline_inner.align_right .headline_icon {
+		padding-right:46px;
+	}
+	
+	.headline_outer .headline_inner.align_center .headline_icon {
+		padding-top:66px;
+	}
+	
+	.cmsms_pricing_table .cmsms_currency,
+	.cmsms_pricing_table .cmsms_price,
+	.cmsms_pricing_table .cmsms_coins {
+		line-height:72px;
+	}
+	
+	.cmsms_pricing_table .cmsms_price {
+		font-size:72px;
+		font-weight:300;
+	}
+	
+	.cmsms_pricing_table .cmsms_currency,
+	.cmsms_pricing_table .cmsms_coins {
+		font-size:26px;
+		font-weight:300;
+	}
+	
+	.cmsms_pricing_table .cmsms_pricing_item_inner:before, 
+	.cmsms_profile.horizontal .profile:before {
+		width:64px;
+		margin-left:-32px;
+	}
+	
+	.cmsms_profile.vertical .profile:before {
+		height:56px;
+		margin-top:-28px;
+	}
+	
+	.post .cmsms_post_format_img:before, 
+	.cmsms_stats.stats_mode_bars.stats_type_vertical .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner:before {
+		font-size:28px;
+	}
+	
+	.post .cmsms_post_format_img:before, 
+	.cmsms_stats.stats_mode_bars.stats_type_vertical .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner:before {
+		line-height:36px;
+	}
+	/* Finish H1 Font */
+
+
+	/* Start H2 Font */
+	h2,
+	h2 a,
+	.booking_title,
+	.cmsms_stats.stats_mode_bars.stats_type_vertical .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap, 
+	.cmsms_stats.stats_mode_circles .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap, 
+	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner .cmsms_counter_counter_wrap, 
+	.cmsms_sitemap_wrap .cmsms_sitemap > li > a,
+	.cmsms_search_post_number {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:30px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsms_stats.stats_mode_circles .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap {
+		font-size:45px; /* static */
+		line-height:60px; /* static */
+		font-weight:300; /* static */
+	}
+	
+	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner .cmsms_counter_counter_wrap, 
+	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner:before {
+		font-size:32px;
+		line-height:44px;
+	}
+	
+	.cmsms_counters.counters_type_horizontal .cmsms_counter_wrap .cmsms_counter.counter_has_icon .cmsms_counter_inner {
+		padding-left:44px;
+	}
+	
+	.post .cmsms_post_cont .cmsms_post_title:before {
+		height:24px;
+		margin-top:3px;
+	}
+	
+	.post.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.format-aside .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.format-status .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.format-quote .cmsms_post_cont .cmsms_post_format_img, 
+	.post.format-quote .cmsms_post_cont .cmsms_post_format_img:after {
+		width:30px;
+	}
+	
+	.post.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.format-quote .cmsms_post_cont .cmsms_post_format_img {
+		height:30px;
+		margin-left:-15px;
+	}
+	
+	.post.cmsms_masonry_type .cmsms_post_format_img:before, 
+	.post.cmsms_puzzle_type .cmsms_post_format_img:before {
+		font-size:24px;
+		line-height:30px;
+	}
+	
+	.post.cmsms_masonry_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_masonry_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_masonry_type.format-quote .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-quote .cmsms_post_cont .cmsms_post_format_img {
+		bottom:-46px;
+	}
+	
+	.post.cmsms_masonry_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_masonry_type.format-aside .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.cmsms_puzzle_type.format-aside .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.cmsms_masonry_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_masonry_type.format-status .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.cmsms_puzzle_type.format-status .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.cmsms_masonry_type.format-quote .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-quote .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_masonry_type.format-quote .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.cmsms_puzzle_type.format-quote .cmsms_post_cont .cmsms_post_format_img:after {
+		width:30px;
+	}
+	
+	.post.cmsms_masonry_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_masonry_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_masonry_type.format-quote .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_puzzle_type.format-quote .cmsms_post_cont .cmsms_post_format_img {
+		height:30px;
+		margin-left:-15px;
+	}
+	/* Finish H2 Font */
+
+
+	/* Start H3 Font */
+	h3,
+	h3 a,
+	.cmsms_post_info .cmsms_post_date .cmsms_year, 
+	.post.cmsms_timeline_type.format-status .cmsms_post_cont .cmsms_post_content,
+	.post.cmsms_timeline_type.format-aside .cmsms_post_cont .cmsms_post_content, 
+	.cmsms_pricing_table .pricing_title {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:20px;
+		line-height:26px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.post.format-quote .cmsms_post_cont .cmsms_quote_content, 
+	.post.cmsms_timeline_type .cmsms_post_format_img:before, 
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_quote_content, 
+	.bypostauthor > .comment-body .alignleft:before {
+		font-size:20px;
+	}
+	
+	.post.format-quote .cmsms_post_cont .cmsms_quote_content, 
+	.post.cmsms_timeline_type .cmsms_post_format_img:before, 
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_quote_content, 
+	.bypostauthor > .comment-body .alignleft:before {
+		line-height:26px;
+	}
+	
+	.post.cmsms_timeline_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_post_format_img {
+		bottom:-37px;
+	}
+	
+	.portfolio .project .project_outer .project_inner .cmsms_project_header .cmsms_project_title {
+		line-height:24px;
+	}
+	
+	.cmsms_post_info .cmsms_post_date .cmsms_year {
+		font-size:18px;
+		line-height:20px;
+	}
+	
+	.post.cmsms_timeline_type .cmsms_post_cont .cmsms_post_title:before {
+		height:20px;
+		margin-top:3px;
+	}
+	
+	.post.cmsms_timeline_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-aside .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.cmsms_timeline_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-status .cmsms_post_cont .cmsms_post_format_img:after, 
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_post_format_img:after, 
+	.bypostauthor > .comment-body .alignleft:before {
+		width:26px;
+	}
+	
+	.post.cmsms_timeline_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_post_format_img, 
+	.bypostauthor > .comment-body .alignleft:before {
+		height:26px;
+	}
+	
+	.post.cmsms_timeline_type.format-aside .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-status .cmsms_post_cont .cmsms_post_format_img, 
+	.post.cmsms_timeline_type.format-quote .cmsms_post_cont .cmsms_post_format_img {
+		margin-left:-13px;
+	}
+	
+	.blog.timeline .post .cmsms_post_info {
+		width:66px;
+		height:66px;
+	}
+	
+	.blog.timeline .post.cmsms_timeline_left .cmsms_post_info {
+		right:-33px;
+	}
+	
+	.blog.timeline .post.cmsms_timeline_right .cmsms_post_info {
+		left:-33px;
+	}
+	/* Finish H3 Font */
+
+
+	/* Start H4 Font */
+	h4, 
+	h4 a,  
+	.cmsms_twitter .cmsms_twitter_item_content,
+	.cmsms_twitter .cmsms_twitter_item_content a, 
+	.cmsms_quotes h6.quote_title, 
+	.widgettitle, 
+	.post.cmsms_masonry_type.format-status .cmsms_post_cont .cmsms_post_content,
+	.post.cmsms_puzzle_type.format-status .cmsms_post_cont .cmsms_post_content,
+	.cmsms_posts_slider .post.format-status .cmsms_post_cont .cmsms_post_content, 
+	.post.cmsms_masonry_type.format-aside .cmsms_post_cont .cmsms_post_content, 
+	.post.cmsms_puzzle_type.format-aside .cmsms_post_cont .cmsms_post_content, 
+	.cmsms_posts_slider .post.format-aside .cmsms_post_cont .cmsms_post_content, 
+	.cmsms_sitemap_wrap .cmsms_sitemap > li > ul > li > a, 
+	.cmsms_sitemap_wrap .cmsms_sitemap_category > li > a, 
+	.cmsms_quotes_slider.cmsms_quotes_slider_type_center .quote_content, 
+	.cmsms_quotes_slider.cmsms_quotes_slider_type_center .quote_content a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.post.cmsms_masonry_type.format-quote .cmsms_post_cont .cmsms_quote_content, 
+	.post.cmsms_puzzle_type.format-quote .cmsms_post_cont .cmsms_quote_content, 
+	.cmsms_posts_slider .post.format-quote .cmsms_post_cont .cmsms_quote_content {
+		font-size:16px;
+		line-height:22px;
+	}
+	/* Finish H4 Font */
+
+
+	/* Start H5 Font */
+	h5,
+	h5 a, 
+	.cmsms_stats .cmsms_stat_wrap .cmsms_stat_title, 
+	.cmsms_stats.stats_mode_bars .cmsms_stat_wrap .cmsms_stat .cmsms_stat_inner .cmsms_stat_counter_wrap, 
+	.cmsms_counters .cmsms_counter_wrap .cmsms_counter .cmsms_counter_inner .cmsms_counter_title, 
+	.cmsms_tabs .cmsms_tabs_list .cmsms_tabs_list_item > a,
+	.post.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_item .cmsms_chat_author_time .cmsms_chat_author, 
+	.post_nav > span, 
+	.post_nav > span a, 
+	table caption, 
+	table th, 
+	table th a, 
+	.cmsms_table tr.cmsms_table_row_header, 
+	.cmsms_table tr.cmsms_table_row_header a, 
+	.cmsms_table tr.cmsms_table_row_footer, 
+	.cmsms_table tr.cmsms_table_row_footer a, 
+	.cmsms_pricing_table .cmsms_period,
+	.cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle_title > a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.post.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_item .cmsms_chat_author_time .cmsms_chat_time {
+		line-height:24px;
+	}
+	
+	.post_nav > span a {
+		line-height:26px;
+	}
+	
+	.cmsms_toggles .cmsms_toggle_wrap .cmsms_toggle_title > a {
+		line-height:26px; /* static */
+	}
+	/* Finish H5 Font */
+
+
+	/* Start H6 Font */
+	h6,
+	h6 a, 
+	.button, 
+	input[type=submit], 
+	input[type=button], 
+	button, 
+	dl dt, 
+	table.shop_attributes th, 
+	fieldset legend,
+	.cmsms_post_read_more, 
+	blockquote footer, 
+	.cmsms_post_info .cmsms_post_date .cmsms_day_mon, 
+	.post.cmsms_masonry_type.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_item .cmsms_chat_author_time .cmsms_chat_author, 
+	.post.cmsms_timeline_type.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_item .cmsms_chat_author_time .cmsms_chat_author, 
+	.post.cmsms_puzzle_type.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_item .cmsms_chat_author_time .cmsms_chat_author, 
+	.cmsms_posts_slider .post.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_item .cmsms_chat_author_time .cmsms_chat_author, 
+	.comment-edit-link, 
+	.comment-reply-link, 
+	#cancel-comment-reply-link, 
+	.cmsms_search_post .cmsms_search_post_number_wrap .cmsms_post_type_label {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.post.cmsms_masonry_type .cmsms_post_header .cmsms_post_subtitle, 
+	.post.cmsms_timeline_type .cmsms_post_header .cmsms_post_subtitle, 
+	.post.cmsms_puzzle_type .cmsms_post_header .cmsms_post_subtitle {
+		font-size:12px;
+	}
+	
+	.cmsms_post_info .cmsms_post_date .cmsms_day_mon, 
+	.cmsms_search_post .cmsms_search_post_number_wrap .cmsms_post_type_label {
+		font-size:11px;
+		line-height:13px;
+	}
+	
+	.post .cmsms_slider_post_header .cmsms_slider_post_subtitle {
+		font-weight:400; /* static */
+	}
+	
+	.post .cmsms_post_header .cmsms_post_subtitle, 
+	.cmsms_search_post .cmsms_search_post_number_wrap .cmsms_post_type_label {
+		text-transform:uppercase; /* static */
+	}
+	
+	#cancel-comment-reply-link {
+		line-height:26px;
+	}
+	/* Finish H6 Font */
+
+
+	/* Start Button Font */
+	.cmsms_button,
+	.cmsms_search_post_cont_info, 
+	.cmsms_search_post_cont_info a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:32px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	.gform_wrapper .gform_footer input.button, 
+	.gform_wrapper .gform_footer input[type=submit] {
+		font-size:13px !important;
+	}
+	
+	.cmsms_posts_slider .cmsms_slider_post_header .cmsms_slider_post_subtitle,
+	.cmsms_search_post_cont_info, 
+	.cmsms_search_post_cont_info a {
+		font-size:11px;
+		line-height:17px;
+	}
+	
+	.cmsms_tabs.lpr .cmsms_tabs_list .cmsms_tabs_list_item > a {
+		line-height:34px;
+	}
+	
+	.cmsms_button.cmsms_but_icon_dark_bg, 
+	.cmsms_button.cmsms_but_icon_light_bg, 
+	.cmsms_button.cmsms_but_icon_divider, 
+	.cmsms_button.cmsms_but_icon_inverse {
+		padding-left:52px;
+	}
+	
+	.cmsms_button.cmsms_but_icon_dark_bg:before, 
+	.cmsms_button.cmsms_but_icon_light_bg:before, 
+	.cmsms_button.cmsms_but_icon_divider:before, 
+	.cmsms_button.cmsms_but_icon_inverse:before, 
+	.cmsms_button.cmsms_but_icon_dark_bg:after, 
+	.cmsms_button.cmsms_but_icon_light_bg:after, 
+	.cmsms_button.cmsms_but_icon_divider:after, 
+	.cmsms_button.cmsms_but_icon_inverse:after {
+		width:32px;
+	}
+	/* Finish Button Font */
+
+
+	/* Start Small Text Font */
+	small,
+	.meta_wrap,
+	.meta_wrap a,
+	form .formError .formErrorContent,
+	.header_top_inner nav > div > ul > li a {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:11px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+
+	#navigation > li.menu-item-mega > div.menu-item-mega-container ul ul li.menu-item-mega-description span.menu-item-mega-description-container {
+		font-size:11px;
+		line-height:20px;
+	}
+	
+	.cmsms_posts_slider .cmsms_slider_post_cont_info,
+	.cmsms_posts_slider .cmsms_slider_post_cont_info a {
+		font-size:12px;
+	}
+	
+	.gform_wrapper .description, 
+	.gform_wrapper .gfield_description, 
+	.gform_wrapper .gsection_description, 
+	.gform_wrapper .instruction {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+		font-size:11px !important;
+		line-height:20px !important;
+	}
+	
+	.meta_wrap > div[class^="cmsms-icon-"]:before,
+	.meta_wrap > p[class^="cmsms-icon-"]:before,
+	.meta_wrap > span[class^="cmsms-icon-"]:before,
+	.meta_wrap > strong[class^="cmsms-icon-"]:before,
+	.meta_wrap > div[class*=" cmsms-icon-"]:before,
+	.meta_wrap > p[class*=" cmsms-icon-"]:before,
+	.meta_wrap > span[class*=" cmsms-icon-"]:before,
+	.meta_wrap > strong[class*=" cmsms-icon-"]:before, 
+	.meta_wrap > div[class^="cmsms_theme_icon_"]:before,
+	.meta_wrap > p[class^="cmsms_theme_icon_"]:before,
+	.meta_wrap > span[class^="cmsms_theme_icon_"]:before,
+	.meta_wrap > strong[class^="cmsms_theme_icon_"]:before,
+	.meta_wrap > div[class*=" cmsms_theme_icon_"]:before,
+	.meta_wrap > p[class*=" cmsms_theme_icon_"]:before,
+	.meta_wrap > span[class*=" cmsms_theme_icon_"]:before,
+	.meta_wrap > strong[class*=" cmsms_theme_icon_"]:before {
+		font-size:16px;
+	}
+
+	.post.format-chat .cmsms_post_cont .cmsms_chat .cmsms_chat_item .cmsms_chat_author_time .cmsms_chat_time {
+		font-size:10px;
+		font-weight:bold; /* static */
+		text-transform:uppercase; /* static */
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		html #page #header .header_top .header_top_outer .header_top_inner .header_top_right .nav_wrap nav #top_line_nav > li > a {
+			font-size:12px;
+			font-weight:700; /* static */
+		}
+	}
+	/* Finish Small Text Font */
+
+
+	/* Start Text Fields Font */
+	input[type=text],
+	input[type=email],
+	input[type=password],
+	input[type=number],
+	input[type=url],
+	input[type=tel],
+	input[type=search],
+	textarea,
+	select,
+	option, 
+	code {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.gform_wrapper input[type=text], 
+	.gform_wrapper input[type=url], 
+	.gform_wrapper input[type=email], 
+	.gform_wrapper input[type=tel], 
+	.gform_wrapper input[type=number], 
+	.gform_wrapper input[type=password], 
+	.gform_wrapper textarea, 
+	.gform_wrapper select {
+		font-size:13px !important;
+	}
+	/* Finish Text Fields Font */
+
+
+	/* Start Blockquote Font */
+	blockquote {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:16px;
+		line-height:28px;
+		font-weight:300;
+		font-style:normal;
+	}
+	
+	q {
+		font-family:'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:300;
+		font-style:normal;
+	}
+	/* Finish Blockquote Font */
+
+/***************** Finish Theme Font Styles ******************/
+
+

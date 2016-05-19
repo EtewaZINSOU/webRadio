@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cmsms_options_dental-clinic_style_header">
+            <key name="dental-clinic_header_top_line_short_info" />
+        </key>
+        <key name="cmsms_options_dental-clinic_style_footer">
+            <key name="dental-clinic_footer_html" />
+            <key name="dental-clinic_footer_copyright" />
+        </key>
+        <key name="cmsms_options_dental-clinic_single_project">
+            <key name="dental-clinic_portfolio_project_details_title" />
+        </key>
+        <key name="cmsms_options_dental-clinic_single_profile">
+            <key name="dental-clinic_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+
